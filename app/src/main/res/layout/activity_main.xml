@@ -30,19 +30,16 @@
             <Button
                 android:id="@+id/points_3_team_a"
                 style="@style/button_style"
-                android:onClick="plus3TeamA"
                 android:text="@string/_3_points" />
 
             <Button
                 android:id="@+id/points_2_team_a"
                 style="@style/button_style"
-                android:onClick="plus2TeamA"
                 android:text="@string/_2_points" />
 
             <Button
                 android:id="@+id/points_ft_team_a"
                 style="@style/button_style"
-                android:onClick="plus1TeamA"
                 android:text="@string/free_throw" />
 
         </LinearLayout>
@@ -71,19 +68,16 @@
             <Button
                 android:id="@+id/points_3_team_b"
                 style="@style/button_style"
-                android:onClick="plus3TeamB"
                 android:text="@string/_3_points" />
 
             <Button
                 android:id="@+id/points_2_team_b"
                 style="@style/button_style"
-                android:onClick="plus2TeamB"
                 android:text="@string/_2_points" />
 
             <Button
                 android:id="@+id/points_ft_team_b"
                 style="@style/button_style"
-                android:onClick="plus1TeamB"
                 android:text="@string/free_throw" />
 
         </LinearLayout>
@@ -91,12 +85,12 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/clear_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
-        android:onClick="clear"
         android:text="@string/clear" />
 </RelativeLayout>
 
